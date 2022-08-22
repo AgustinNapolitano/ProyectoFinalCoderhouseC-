@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Class1
+namespace Api_AgustinNapolitano.Model
 {
-	public Class1()
-	{
-	}
+    public class Venta
+    {
+        public int Id { get; set; }
+        public string Comentarios { get; set; }
+    }
+}
 }

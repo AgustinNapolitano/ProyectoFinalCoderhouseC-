@@ -22,8 +22,32 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{E4BFEA6F-15D9-4B8A-9BB5-FCDA90DF0DDB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{6D0CC8EA-35E8-4E18-940E-2F759189E5B5}"
+	ProjectSection(SolutionItems) = preProject
+		Producto.cs = Producto.cs
+		ProductoVendido.cs = ProductoVendido.cs
+		Usuario.cs = Usuario.cs
+		Venta.cs = Venta.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{3F400EFA-A2AA-4A85-996C-0CAFE40AAE0F}"
+	ProjectSection(SolutionItems) = preProject
+		ProductoController.cs = ProductoController.cs
+		ProductoVendidoController.cs = ProductoVendidoController.cs
+		UsuarioController.cs = UsuarioController.cs
+		VentaController.cs = VentaController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{B779EF77-2075-43C5-8936-5DB0CBA2805E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProducto.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProducto.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProductoVendido.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProductoVendido.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostUsuario.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostUsuario.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostVenta.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostVenta.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProducto.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProducto.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProductoVendido.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProductoVendido.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutUsuario.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutUsuario.cs
+		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutVenta.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutVenta.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +68,7 @@ Global
 		{E4BFEA6F-15D9-4B8A-9BB5-FCDA90DF0DDB} = {6EE43D15-D997-447B-8897-79C0D37794EC}
 		{6D0CC8EA-35E8-4E18-940E-2F759189E5B5} = {6EE43D15-D997-447B-8897-79C0D37794EC}
 		{3F400EFA-A2AA-4A85-996C-0CAFE40AAE0F} = {6EE43D15-D997-447B-8897-79C0D37794EC}
+		{B779EF77-2075-43C5-8936-5DB0CBA2805E} = {3F400EFA-A2AA-4A85-996C-0CAFE40AAE0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19D9EE83-5F73-4082-84B2-C97DE99587DC}
