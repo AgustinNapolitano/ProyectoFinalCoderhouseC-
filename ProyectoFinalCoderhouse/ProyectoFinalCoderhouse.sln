@@ -3,51 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinalCoderhouse", "ProyectoFinalCoderhouse\ProyectoFinalCoderhouse.csproj", "{E6CAFD66-EC46-4BF4-9232-44A5E84D596C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api_AgustinNapolitano", "Api_AgustinNapolitano", "{6EE43D15-D997-447B-8897-79C0D37794EC}"
-	ProjectSection(SolutionItems) = preProject
-		Program.cs = Program.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{5B816953-C0CF-47E9-A3BF-7FCDC0CEAF0F}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\DbHandler.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\DbHandler.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\ProductoHandler.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\ProductoHandler.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\ProductosVendidoHandler.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\ProductosVendidoHandler.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\UsuarioHandler.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\UsuarioHandler.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\VentaHandler.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\ADO.NET\VentaHandler.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{E4BFEA6F-15D9-4B8A-9BB5-FCDA90DF0DDB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{6D0CC8EA-35E8-4E18-940E-2F759189E5B5}"
-	ProjectSection(SolutionItems) = preProject
-		Producto.cs = Producto.cs
-		ProductoVendido.cs = ProductoVendido.cs
-		Usuario.cs = Usuario.cs
-		Venta.cs = Venta.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{3F400EFA-A2AA-4A85-996C-0CAFE40AAE0F}"
-	ProjectSection(SolutionItems) = preProject
-		ProductoController.cs = ProductoController.cs
-		ProductoVendidoController.cs = ProductoVendidoController.cs
-		UsuarioController.cs = UsuarioController.cs
-		VentaController.cs = VentaController.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{B779EF77-2075-43C5-8936-5DB0CBA2805E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProducto.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProducto.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProductoVendido.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostProductoVendido.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostUsuario.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostUsuario.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostVenta.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PostVenta.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProducto.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProducto.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProductoVendido.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutProductoVendido.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutUsuario.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutUsuario.cs
-		..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutVenta.cs = ..\..\C#\Validación de usuario\EntregaProyectoFinal\PrimeraEntregaProyectoFinalC\ProyectoFinal\Controllers\DTO\PutVenta.cs
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinalCoderhouse", "ProyectoFinalCoderhouse\ProyectoFinalCoderhouse.csproj", "{E6CAFD66-EC46-4BF4-9232-44A5E84D596C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,13 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5B816953-C0CF-47E9-A3BF-7FCDC0CEAF0F} = {6EE43D15-D997-447B-8897-79C0D37794EC}
-		{E4BFEA6F-15D9-4B8A-9BB5-FCDA90DF0DDB} = {6EE43D15-D997-447B-8897-79C0D37794EC}
-		{6D0CC8EA-35E8-4E18-940E-2F759189E5B5} = {6EE43D15-D997-447B-8897-79C0D37794EC}
-		{3F400EFA-A2AA-4A85-996C-0CAFE40AAE0F} = {6EE43D15-D997-447B-8897-79C0D37794EC}
-		{B779EF77-2075-43C5-8936-5DB0CBA2805E} = {3F400EFA-A2AA-4A85-996C-0CAFE40AAE0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19D9EE83-5F73-4082-84B2-C97DE99587DC}
