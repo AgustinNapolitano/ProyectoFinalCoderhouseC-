@@ -1,0 +1,5 @@
+D:\CODERHOUSE\ProyectoFinalCoderhouseC#\ProyectoFinalCoderhouse\ProyectoFinalCoderhouse\obj\Debug\net6.0\ProyectoFinalCoderhouse.csproj.AssemblyReference.cache
+D:\CODERHOUSE\ProyectoFinalCoderhouseC#\ProyectoFinalCoderhouse\ProyectoFinalCoderhouse\obj\Debug\net6.0\ProyectoFinalCoderhouse.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODERHOUSE\ProyectoFinalCoderhouseC#\ProyectoFinalCoderhouse\ProyectoFinalCoderhouse\obj\Debug\net6.0\ProyectoFinalCoderhouse.AssemblyInfoInputs.cache
+D:\CODERHOUSE\ProyectoFinalCoderhouseC#\ProyectoFinalCoderhouse\ProyectoFinalCoderhouse\obj\Debug\net6.0\ProyectoFinalCoderhouse.AssemblyInfo.cs
+D:\CODERHOUSE\ProyectoFinalCoderhouseC#\ProyectoFinalCoderhouse\ProyectoFinalCoderhouse\obj\Debug\net6.0\ProyectoFinalCoderhouse.csproj.CoreCompileInputs.cache
